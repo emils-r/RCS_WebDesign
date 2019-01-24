@@ -1,0 +1,1 @@
+<h1><strong>404 page not found</strong></h1>

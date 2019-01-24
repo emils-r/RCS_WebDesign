@@ -1,0 +1,46 @@
+div.chat_room {
+    width: 70%;
+    box-sizing: border-box;
+    margin-left: 15%;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    max-height: 65vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .members-count,
+  .members-list,
+  .messages {
+    min-height: 55vh;
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .messages {
+    flex-shrink: 1;
+    overflow: auto;
+  }
+  .message {
+    padding: 5px 0;
+  }
+  .message .member {
+    display: inline-block;
+  }
+  .member {
+    padding-right: 10px;
+    position: relative;
+  }
+  .message-form {
+    display: flex;
+    flex-shrink: 0;
+  }
+  .message-form__input {
+    flex-grow: 1;
+    border: 1px solid #dfdfdf;
+    padding: 10px 10px;
+    font-size: 16px;
+  }
+  .message-form__button {
+    height: 10vh;
+    margin: 1% 0 1% 1%;
+  }
