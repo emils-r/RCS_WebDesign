@@ -1,14 +1,14 @@
-<div class="article__page">
+<div class="article__page row_article">
     <h1 class="article__title"><strong>Burrito cat</strong></h1>
     
     <div class="article__imglist">
-        <img id="article__img--main" src="../public/assets/img/art/burrito/burrito1.jpg" alt="burrito_cat">
-        <img class="article__img--others" src="../public/assets/img/art/burrito/burrito2.jpg" alt="burrito_cat">
-        <img class="article__img--others" src="../public/assets/img/art/burrito/burrito3.jpg" alt="burrito_cat">
-        <img class="article__img--others" src="../public/assets/img/art/burrito/burrito4.jpg" alt="burrito_cat">
-        <img class="article__img--others" src="../public/assets/img/art/burrito/burrito5.jpg" alt="burrito_cat">
-        <img class="article__img--others" src="../public/assets/img/art/burrito/burrito6.jpg" alt="burrito_cat">
-        <img class="article__img--others" src="../public/assets/img/art/burrito/burrito7.jpg" alt="burrito_cat">
+        <img id="article__img--main" class="column_article" src="../public/assets/img/art/burrito/burrito1.jpg" alt="burrito_cat" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        <img class="article__img--others  column_article" src="../public/assets/img/art/burrito/burrito2.jpg" alt="burrito_cat" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        <img class="article__img--others  column_article" src="../public/assets/img/art/burrito/burrito3.jpg" alt="burrito_cat" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        <img class="article__img--others  column_article" src="../public/assets/img/art/burrito/burrito4.jpg" alt="burrito_cat" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        <img class="article__img--others  column_article" src="../public/assets/img/art/burrito/burrito5.jpg" alt="burrito_cat" onclick="openModal();currentSlide(5)" class="hover-shadow">
+        <img class="article__img--others  column_article" src="../public/assets/img/art/burrito/burrito6.jpg" alt="burrito_cat" onclick="openModal();currentSlide(6)" class="hover-shadow">
+        <img class="article__img--others  column_article" src="../public/assets/img/art/burrito/burrito7.jpg" alt="burrito_cat" onclick="openModal();currentSlide(7)" class="hover-shadow">
     </div>
 
     <div class="article__paragraph">
@@ -28,4 +28,90 @@
         </p>
 
     </div>
+</div>
+
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 7</div>
+      <img src="../public/assets/img/art/burrito/burrito1.jpg" style="height:80vh; margin-left: 30%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 7</div>
+      <img src="../public/assets/img/art/burrito/burrito2.jpg" style="height:80vh; margin-left: 30%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 7</div>
+      <img src="../public/assets/img/art/burrito/burrito3.jpg" style="height:80vh; margin-left: 30%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 7</div>
+      <img src="../public/assets/img/art/burrito/burrito4.jpg" style="height:80vh; margin-left: 30%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 7</div>
+      <img src="../public/assets/img/art/burrito/burrito5.jpg" style="height:80vh; margin-left: 30%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 7</div>
+      <img src="../public/assets/img/art/burrito/burrito6.jpg" style="height:80vh; margin-left: 30%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 7</div>
+      <img src="../public/assets/img/art/burrito/burrito7.jpg" style="height:80vh; margin-left: 30%;">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    </div>
+    <div id="modal-content2">
+
+
+    <!-- Thumbnail image controls -->
+    <div class="column_article">
+      <img class="demo" src="../public/assets/img/art/burrito/burrito1.jpg" onclick="currentSlide(1)" style="width: 100%;" alt="Burrito Cat">
+    </div>
+
+    <div class="column_article">
+      <img class="demo" src="../public/assets/img/art/burrito/burrito2.jpg" onclick="currentSlide(2)" style="width: 100%;" alt="Burrito Cat">
+    </div>
+
+    <div class="column_article">
+      <img class="demo" src="../public/assets/img/art/burrito/burrito3.jpg" onclick="currentSlide(3)" style="width: 100%;" alt="Burrito Cat">
+    </div>
+
+    <div class="column_article">
+      <img class="demo" src="../public/assets/img/art/burrito/burrito4.jpg" onclick="currentSlide(4)" style="width: 100%;" alt="Burrito Cat">
+    </div>
+
+    <div class="column_article">
+      <img class="demo" src="../public/assets/img/art/burrito/burrito5.jpg" onclick="currentSlide(5)" style="width: 100%;" alt="Burrito Cat">
+    </div>
+
+    <div class="column_article">
+      <img class="demo" src="../public/assets/img/art/burrito/burrito6.jpg" onclick="currentSlide(6)" style="width: 100%;" alt="Burrito Cat">
+    </div>
+
+    <div class="column_article">
+      <img class="demo" src="../public/assets/img/art/burrito/burrito7.jpg" onclick="currentSlide(7)" style="width: 100%;" alt="Burrito Cat">
+    </div>
+  </div>
 </div>

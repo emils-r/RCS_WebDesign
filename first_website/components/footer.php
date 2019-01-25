@@ -15,7 +15,8 @@
     <script src="../public/assets/js/script.js" type="text/javascript"></script>
     <script src='https://cdn.scaledrone.com/scaledrone.min.js' type="text/javascript"></script>
     <script src="../public/assets/js/chat_script.js" type="text/javascript"></script>
-    
+    <script src="../public/assets/js/register.js" type="text/javascript"></script>
+
 </body>
 
 </html>

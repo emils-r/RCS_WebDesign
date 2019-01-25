@@ -8,34 +8,33 @@ div.chat_room {
     max-height: 65vh;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .members-count,
-  .members-list,
+  
   .messages {
+    background-color: #e4e2e2;
     min-height: 55vh;
-    border: 1px solid #e4e4e4;
+    border: 1px solid grey;
     padding: 15px;
     margin-bottom: 15px;
-  }
-  .messages {
     flex-shrink: 1;
     overflow: auto;
   }
   .message {
     padding: 5px 0;
   }
-  .message .member {
+  .message {
     display: inline-block;
   }
-  .member {
-    padding-right: 10px;
-    position: relative;
-  }
+  
   .message-form {
     display: flex;
     flex-shrink: 0;
+    /* border: 1px solid grey; */
+  }
+  .message-form__nickname {
+    flex-shrink: 70;
   }
   .message-form__input {
-    flex-grow: 1;
+    flex-grow: 5%;
     border: 1px solid #dfdfdf;
     padding: 10px 10px;
     font-size: 16px;
@@ -44,3 +43,4 @@ div.chat_room {
     height: 10vh;
     margin: 1% 0 1% 1%;
   }
+  

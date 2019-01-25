@@ -18,7 +18,7 @@
 
 <body>
     <!-- Logo -->
-    <img id="cat-logo" src="../public/assets/img/coolcat.jpg" alt="coolcat">
+    <a href="?"><img id="cat-logo" src="../public/assets/img/coolcat.jpg" alt="coolcat"></a>
 
     <!-- Menu -->
     <nav>

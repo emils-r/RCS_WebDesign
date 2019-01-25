@@ -56,17 +56,17 @@
     <div class="articles_home">
 
         <div class="articles_home_sub">
-            <img src="assets/img/art/art1.jpg" alt="burrito_cat">
-            <p class="articles_home_sub_text"><strong>Burrito cat</strong><br>How to turn your cat into burrito? This
-                simple tutorial will help you!</p>
+            <a href="?article1"><img src="assets/img/art/art1.jpg" alt="burrito_cat">
+            <p class="articles_home_sub_text no_text_decoration"><strong>Burrito cat</strong><br>How to turn your cat into burrito? This
+                simple tutorial will help you!</p></a>
         </div>
         <div class="articles_home_sub">
             <img src="assets/img/art/art2.jpg" alt="sunglasses_cat">
-            <p class="articles_home_sub_text"><strong>Cat eyewear</strong><br>New trends you must know!</p>
+            <p class="articles_home_sub_text no_text_decoration"><strong>Cat eyewear</strong><br>New trends you must know!</p>
         </div>
         <div class="articles_home_sub">
             <img src="assets/img/art/art3.jpg" alt="grumpy_cat">
-            <p class="articles_home_sub_text"><strong>Grumpy cat</strong><br>Everyone knows the grumpy cat, but have
+            <p class="articles_home_sub_text no_text_decoration"><strong>Grumpy cat</strong><br>Everyone knows the grumpy cat, but have
                 you seen him in the morning? Take a look!</p>
         </div>
 

@@ -2,31 +2,28 @@
     <h2>About us</h2>
     <hr>
 
-    <div id="London" class="tabcontent">
-  <h1>London</h1>
-  <p>London is the capital city of England.</p>
-</div>
+    <button class="tablink" onclick="openTab('tab1', this, 'lightgrey')" id="defaultOpen">Catolas</button>
+    <button class="tablink" onclick="openTab('tab2', this, 'lightgrey')">Burrito</button>
+    <button class="tablink" onclick="openTab('tab3', this, 'lightgrey')">Coolio</button>
+    <br>
+        <div id="tab1" class="tabcontent">
+            <img src="../public/assets/img/cat6.jpeg" alt="cat">
+            <h1>Catolas Cage</h1>
+            <p>One amazing cat</p>
+        </div>
 
-<div id="Paris" class="tabcontent">
-  <h1>Paris</h1>
-  <p>Paris is the capital of France.</p>
-</div>
+        <div id="tab2" class="tabcontent">
+            <img src="../public/assets/img/art/burrito/burrito4.jpg" alt="cat">
+            <h1>Burrito Cat</h1>
+            <p>Do we really need to say anything more about this awesome cat?</p>
+        </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h1>Tokyo</h1>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
-<div id="Oslo" class="tabcontent">
-  <h1>Oslo</h1>
-  <p>Oslo is the capital of Norway.</p>
-</div>
-
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button> 
-
+        <div id="tab3" class="tabcontent">
+            <img src="../public/assets/img/art/art2.jpg" alt="cat">
+            <h1>Coolio Cat</h1>
+            <p>Probably the coolest cat... in the world</p>
+        </div>
+    <hr>
     <h2>Contacts</h2>
     <hr>
 
